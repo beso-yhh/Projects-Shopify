@@ -1,17 +1,4 @@
 
-
-const enum Category {
-    Electronics = 'electronics',
-    Jewelery = 'jewelery',
-    MenSClothing = "men's clothing",
-    WomenSClothing = "women's clothing",
-}
-
-interface Rating {
-    rate: number;
-    count: number;
-}
-
 /**
  * Populate CMS Data from an external API.
  */
